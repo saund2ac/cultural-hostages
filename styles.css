@@ -1,0 +1,28 @@
+/* sources accordion*/
+.accordion {
+  --bs-accordion-btn-bg: white;
+  --bs-accordion-active-bg: white;
+  --bs-accordion-active-color: #D60A0A;
+  --bs-accordion-btn-focus-box-shadow: none;
+  --bs-accordion-color: black;
+  --bs-accordion-btn-focus-border-color: unset;
+
+}
+
+.accordion-button:not(.collapsed) {
+  box-shadow: none;
+}
+
+.accordion-button {
+  border-top: 1px solid #D83A08;
+}
+
+.accordion-item:last-child .accordion-button {
+  border-bottom: 1px solid #D83A08;
+  border-top: 1px solid #D83A08;
+
+}
+
+.accordion-item:first-child .accordion-button {
+  border-top: 1px solid #D83A08;
+}
